@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_1{
+    width: 100%;
+    height: auto;
+    background: url(./img/img_1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+.box-content_wrapper{
+    width: 85%;
+    height: auto;
+    margin: 7% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.box-content{
+    width: 75%;
+
+
+}
+.box-counter{
+    width: 25%;
+
+
+}
+.text-main{
+    color: #ffffff;
+    font-size: 55px;
+    letter-spacing: 0.01em;
+    max-width: 850px;
+    margin-bottom: 0;
+}
+.sm-text{
+    font-size: 40px;
+}
+.col-text{
+    color: #f0e353;
+}
+.under_main-text{
+    color: #ffffff;
+    font-size: 25px;
+    font-style: normal;
+    font-family:"Segoe UI Light" ;
+    margin: 0;
+}
+.box-date{
+    width:90%;
+    height: auto;
+    border-left: 3px solid #f0e353;
+    margin: 5% 0;
+    padding-left: 1%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.date-info{
+    margin: 0;
+    width: 100%;
+}
+.number-text{
+    font-size: 40px;
+    font-style: normal;
+    font-family:  "Roboto Regular";
+}
+.date-text{
+    font-size: 22px;
+    font-family:  "Roboto Medium";
+    font-weight: 600;
+}
+.time-item{
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 1%;
+}
+.box-button{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-button{
+    width: 80%;
+    height: 70px;
+    border: 2px solid #f0e353;
+    border-radius: 5px ;
+    background: none;
+    color:#f0e353 ;
+    font-size: 40px;
+}
+
+.main-button:hover {
+    color: white;
+    background: #f0e353;
+    border:2px solid #ffffff;
+    transition: 1s ease-in-out;
+}
+.under_main-button{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:normal;
+    font-family:"Segoe UI Light";
+}
+
+.box-down{
+    width: 5%;
+    height: 50px;
+    background: url(./img/img_2.png) no-repeat center;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size:100%;
+    margin: 0 auto 6%;
+    animation-name: floating;
+    -webkit-animation-name: floating;
+
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(15%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes floating {
+    0% {
+        -webkit-transform: translateY(0%);
+    }
+    50% {
+        -webkit-transform: translateY(15%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.box_2{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.box_2-item{
+    width: 49.92%;
+    height: 100%;
+    background-color: #55719f;
+    border-right: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.box_2-item.right{
+    width: 49.92%;
+    height:100%;
+    background-color: #55719f;
+    border-top: 1px solid #f2f2f2;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.box_2-input{
+    width: 70%;
+    height: 200px;
+    margin: 10% auto 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.big-text{
+    font: bold 5em Verdana;
+    color:  #f2f2f2;
+    margin: 0;
+    font-size: 80px;
+    letter-spacing: 0.001em;
+}
+.sm-txt{
+    width: 15%;
+    height: 32%;
+    margin-left: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #f2f2f2;
+    padding-left: 2%;
+}
+.sm-txt_input{
+    color: #f2f2f2;
+    font-size: 12px;
+    margin: 0;
+}
+.mid-txt{
+    color:#f2f2f2 ;
+    font-size: 30px;
+}
+.box-letter{
+    width: 18%;
+    height: 60%;
+    border: 3px solid #f2f2f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg-z{
+    margin: 0;
+    font: bold 7em "Neue Haas Grotesk Text Pro";
+    color:  #f2f2f2;
+    font-size: 120px;
+    transform: rotate(145deg);
+}
+.name_veb-wrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 4%;
+
+}
+.name_veb{
+    width: 100%;
+    height: 40%;
+    color: #f2f2f2;
+    font-size: 32px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-bottom: 2px solid #f2f2f2;
+}
+.name_veb-input{
+    color:#f2f2f2 ;
+    font-size: 23px;
+    font-family:"Segoe UI Light";
+    margin-top: 0;
+}
+.counter-wrapper{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+}
+
+.counter-text{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: -24.3%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 3px solid #f2f2f2;
+}
+.counter-text_input{
+    color: #f2f2f2;
+    font-family:"Segoe UI Light";
+    font-size: 22px;
+    max-width: 100px;
+    text-align: center;
+}

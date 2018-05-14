@@ -1,0 +1,182 @@
+@media screen and (max-width: 1700px) {
+    .pg-z{
+        font-size: 100px;
+    }
+    .box-letter{
+        width: 20%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .pg-z{
+        font-size: 100px;
+    }
+    .box-letter{
+        width: 18%;
+        height: 50%;
+    }
+    .main-button{
+
+        font-size: 30px;
+    }
+    .under_main-button{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1390px) {
+    .pg-z{
+        font-size: 80px;
+    }
+    .name_veb{
+        font-size: 25px;
+    }
+    .name_veb-input{
+        font-size: 17px;
+    }
+    .big-text{
+        font-size: 60px;
+    }
+    .sm-txt{
+        height: 25%;
+        margin-right: 3%;
+    }
+    .sm-txt_input{
+
+        font-size: 10px;
+    }
+    .mid-txt{
+        font-size: 25px;
+    }
+    .text-main{
+        font-size: 45px;
+    }
+    .sm-text{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1264px) {
+    .under_main-button {
+        font-size: 12px;
+    }
+    .box_2-item {
+        width: 49.8%;
+    }
+
+    .box_2-item.right {
+        width: 49.8%;
+    }
+}
+@media screen and (max-width: 1152px) {
+    .main-button {
+
+        font-size: 20px;
+    }
+    .text-main{
+        font-size: 35px;
+    }
+    .sm-text{
+        font-size: 25px;
+    }
+    .under_main-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 1082px) {
+    .box-letter{
+        width: 18%;
+        height: 40%;
+    }
+    .pg-z{
+        font-size: 75px;
+    }
+    .name_veb{
+        font-size: 20px;
+    }
+    .name_veb-input{
+        font-size: 13px;
+    }
+    .big-text{
+        font-size: 60px;
+    }
+    .sm-txt{
+        height: 25%;
+        margin-right: 3%;
+    }
+    .sm-txt_input{
+
+        font-size: 10px;
+    }
+    .mid-txt{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .box-letter{
+        width: 18%;
+        height: 34%;
+    }
+    .pg-z{
+        font-size: 70px;
+    }
+    .name_veb{
+        font-size: 18px;
+    }
+    .name_veb-input{
+        font-size: 13px;
+    }
+    .big-text{
+        font-size:50px;
+    }
+    .sm-txt{
+        height: 22%;
+        margin-right: 3%;
+    }
+    .sm-txt_input{
+
+        font-size: 10px;
+    }
+    .mid-txt{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .box_2-item {
+        width: 100%;
+    }
+
+    .box_2-item.right {
+        width: 100%;
+    }
+    .under_main-button{
+        font-size: 9px;
+    }
+    .box-letter{
+        width: 22%;
+        height: 68%;
+    }
+    .pg-z{
+        font-size: 120px;
+    }
+    .name_veb{
+        font-size: 34px;
+    }
+    .name_veb-input{
+        font-size: 20px;
+    }
+    .big-text{
+        font-size:70px;
+    }
+    .sm-txt{
+        height: 22%;
+        margin-right: 3%;
+    }
+    .sm-txt_input{
+
+        font-size: 10px;
+    }
+    .mid-txt{
+        font-size: 30px;
+    }
+}
